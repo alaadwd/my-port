@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/Home';
-import { BrowserRouter , Route , Routes } from 'react-router-dom';
+import { HashRouter , Route , Routes } from 'react-router-dom';
 import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
 import SharedLayout from './components/SharedLayout';
@@ -8,7 +8,7 @@ import SharedLayout from './components/SharedLayout';
 
 function App() {
   return (
-    <BrowserRouter className=" ">
+    <HashRouter className=" ">
       <Routes>
         <Route path="/" element={<SharedLayout/>}>
           <Route index element={<Home/>}/>
@@ -16,7 +16,7 @@ function App() {
           <Route path= "Portfolio" element={<Portfolio/>}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
