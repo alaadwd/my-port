@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-port/static/css/main.d94e2ba4.css",
-    "main.js": "/my-port/static/js/main.527cbdbe.js",
+    "main.js": "/my-port/static/js/main.f03d0f8d.js",
     "static/js/787.ae61a12f.chunk.js": "/my-port/static/js/787.ae61a12f.chunk.js",
     "static/media/PortCard.png": "/my-port/static/media/PortCard.fcf790c661f4312edb70.png",
     "static/media/Counter.png": "/my-port/static/media/Counter.f6d00597cd01a92c0859.png",
@@ -16,11 +16,11 @@
     "static/media/ToDoApp.jpg": "/my-port/static/media/ToDoApp.483cbbb4340cf091571c.jpg",
     "index.html": "/my-port/index.html",
     "main.d94e2ba4.css.map": "/my-port/static/css/main.d94e2ba4.css.map",
-    "main.527cbdbe.js.map": "/my-port/static/js/main.527cbdbe.js.map",
+    "main.f03d0f8d.js.map": "/my-port/static/js/main.f03d0f8d.js.map",
     "787.ae61a12f.chunk.js.map": "/my-port/static/js/787.ae61a12f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d94e2ba4.css",
-    "static/js/main.527cbdbe.js"
+    "static/js/main.f03d0f8d.js"
   ]
 }
