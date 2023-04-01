@@ -1,0 +1,123 @@
+.home_container{
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.me_Image{
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 25vh;
+    width: auto;
+    border: 4px solid black;
+}
+
+.para{
+    word-spacing: 1.5px;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 1.7;
+    
+
+}
+
+.btn {
+   margin: auto;
+   padding: 12px;
+   padding-top: 16px;
+   padding-bottom: 16px;
+   margin-bottom: 40px;
+   letter-spacing: 2px;
+
+}
+
+.exp_head{
+    letter-spacing: .8px ;
+    font-weight: bold;
+    /* position: relative; */
+    margin: auto;
+}
+.exp_header{
+    border-width: 1px;
+    letter-spacing: .5px;
+    padding:2rem ;
+    border-radius: 0 2rem 2rem 2rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3) ;
+    text-align: center;
+
+
+
+}
+
+.exp_boxes{
+    width: 36%;
+    border-radius: 0 0 2rem 2rem;
+    height: fit-content;
+    transition: .2s; 
+}
+.exp{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+@media screen and (max-width:624px) {
+    .exp_boxes{
+        width: 80%;
+    }
+    .exp_container{
+       flex-direction: column;
+       align-items: center;
+    }
+    .exp{
+        margin-right: 2rem;
+    }
+    
+    
+}
+@media screen and (max-width:1024px) {
+    .exp_boxes{
+        width: 70%;
+
+    }
+    .exp_container{
+       flex-direction: column;
+       align-items: center;
+    }
+    .exp{
+        margin-right: 2rem;
+    }
+    .other{
+        padding-top: 24px;
+    }
+    
+}
+
+
+
+/* .exp_header::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    left: 0;
+    bottom: -4px;
+    transition: 0.2s;
+    border-radius: 4px;
+    
+}
+.exp_header:hover::after{
+    width: 100%;
+    animation-name: header;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes header {
+  from {background-color: black;}
+  to {background-image: linear-gradient(to right,green);}
+
+} */

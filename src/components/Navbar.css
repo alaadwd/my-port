@@ -1,0 +1,29 @@
+.nav{
+    position: relative;
+    letter-spacing: 3px;
+}
+
+
+
+.nav::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    background-color: #FCF6F5FF;
+    left: 0;
+    bottom: -4px;
+    transition: 0.2s;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+.nav:hover::after{
+    width: 100%;
+}
+
+/* @media screen and (max-width : 1024px) {
+    .nav {
+        width: 100%;
+    }
+} */
