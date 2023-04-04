@@ -21,7 +21,7 @@ const Home = () => {
           <h3 className="text-center exp_head">Field Of Expertise</h3>
       <div className="exp_container w-full flex justify-evenly">
           <div className="exp_boxes" >
-            <h3 className="exp_header font-bold hover:text-white transition hover:bg-gray-400 break-words">Programming</h3>
+            <h3 className="exp_header font-bold hover:text-white transition hover:bg-gray-400 ">Programming</h3>
             <ul className="exp_list mt-12">
             <li className="exp hover:text-gray-400 transition"><AiOutlineCheck/>HTML , CSS , JS (Web Dev)</li>
             <li className="exp hover:text-gray-400 transition"><AiOutlineCheck/>Tailwind (CSS Framework)</li>

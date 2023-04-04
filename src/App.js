@@ -8,7 +8,7 @@ import SharedLayout from './components/SharedLayout';
 
 function App() {
   return (
-    <HashRouter className=" ">
+    <HashRouter className="">
       <Routes>
         <Route path="/" element={<SharedLayout/>}>
           <Route index element={<Home/>}/>

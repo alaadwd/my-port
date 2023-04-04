@@ -11,7 +11,7 @@ const WorkCard = (props) => {
       <p className='text-center text-xs mt-1'>{props.moredetails}</p>
       </div>
       <div>
-      <a href={`${props.link}`} className='flex w-fit m-auto justify-center rounded-xl p-3 hover:bg-white transition hover:text-gray-600 border-[1px] mt-3 border-gray-500'>Source Code</a>
+      <a target='_blank' href={`${props.link}`} className='flex w-fit m-auto justify-center rounded-xl p-3 hover:bg-white transition hover:text-gray-600 border-[1px] mt-3 border-gray-500'>Source Code</a>
       </div>
     </div>
   )

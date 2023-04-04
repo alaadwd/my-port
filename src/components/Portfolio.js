@@ -21,57 +21,57 @@ const Portfolio = () => {
       <div className='Portfolio_Container w-auto'>
         <WorkCard
         image={Port}
-        link="#"
+        link="https://github.com/alaadwd/SourceCode_For_Gallery"
         descript="Web Dev"
         title="An Old Portfolio"
         />
       <WorkCard
       image={Quiz2}
-      link="#"
+      link="https://github.com/alaadwd/SourceCode_For_Gallery"
       descript="Web Dev"
       title="Quizzical App"
       moredetails="Using The Open Trivia Database API"
       />
       <WorkCard
       image={Exten2}
-      link="#"
+      link="https://github.com/alaadwd/SourceCode_For_Gallery"
       descript="Web Dev"
       title="Google Extension"
       moredetails="To Save Website's Link Easier"
       />
       <AppCard
       image={ToDoApp}
-      link="#"
+      link="https://github.com/alaadwd/SourceCode_For_Gallery"
       descript="App Dev"
       title="To Do List"
       />
       <WorkCard
         image={Tenzies}
-        link="#"
+        link="https://github.com/alaadwd/SourceCode_For_Gallery"
         descript="Web Dev"
         title="Tenzies Game"
       />
       <WorkCard
         image={Journal}
-        link="#"
+        link="https://github.com/alaadwd/SourceCode_For_Gallery"
         descript="Web Dev"
         title="Travel Journal"
       />
       <WorkCard
         image={Jack}
-        link="#"
+        link="https://github.com/alaadwd/SourceCode_For_Gallery"
         descript="Web Dev"
         title="BlackJack Game"
       />
       <WorkCard
       image={ToDoWeb}
-      link="#"
+      link="https://github.com/alaadwd/SourceCode_For_Gallery"
       descript="Web Dev"
       title="To Do List"
       />
       <WorkCard
       image={Counter}
-      link="#"
+      link="https://github.com/alaadwd/SourceCode_For_Gallery"
       descript="Web Dev"
       title="A Simple Counter App"
       />
