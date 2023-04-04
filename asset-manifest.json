@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-port/static/css/main.d94e2ba4.css",
-    "main.js": "/my-port/static/js/main.f03d0f8d.js",
+    "main.css": "/my-port/static/css/main.1192b6a0.css",
+    "main.js": "/my-port/static/js/main.79931813.js",
     "static/js/787.ae61a12f.chunk.js": "/my-port/static/js/787.ae61a12f.chunk.js",
     "static/media/PortCard.png": "/my-port/static/media/PortCard.fcf790c661f4312edb70.png",
     "static/media/Counter.png": "/my-port/static/media/Counter.f6d00597cd01a92c0859.png",
@@ -15,12 +15,12 @@
     "static/media/Exten2.png": "/my-port/static/media/Exten2.0ff0ff7e432d91de1bcd.png",
     "static/media/ToDoApp.jpg": "/my-port/static/media/ToDoApp.483cbbb4340cf091571c.jpg",
     "index.html": "/my-port/index.html",
-    "main.d94e2ba4.css.map": "/my-port/static/css/main.d94e2ba4.css.map",
-    "main.f03d0f8d.js.map": "/my-port/static/js/main.f03d0f8d.js.map",
+    "main.1192b6a0.css.map": "/my-port/static/css/main.1192b6a0.css.map",
+    "main.79931813.js.map": "/my-port/static/js/main.79931813.js.map",
     "787.ae61a12f.chunk.js.map": "/my-port/static/js/787.ae61a12f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d94e2ba4.css",
-    "static/js/main.f03d0f8d.js"
+    "static/css/main.1192b6a0.css",
+    "static/js/main.79931813.js"
   ]
 }
