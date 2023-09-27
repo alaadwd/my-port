@@ -28,11 +28,16 @@ function Navbar() {
     
     <div
       style={{ color: "#FCF6F5FF" }}
-      className="bg-gray-500 pb-4 p-3 shadow-2xl big-nav"
+      className=" bg-zinc-900 py-6 p-3 shadow-2xl big-nav"
     >
       <ul className="space-x-24 justify-center big-l">
         <NavLink
-          className=" flex nav font-light transition py-2"
+          style={({isActive}) => {
+            return {
+              backgroundColor:"inherit"
+            }
+          }} 
+          className=" text-cyan-400 flex nav font-light transition py-2"
           to='/'
         >
           <li className=" pr-1">Home</li>
@@ -52,7 +57,12 @@ function Navbar() {
           </svg>
         </NavLink>
         <NavLink
-          className="flex nav font-light transition py-2"
+        style={({isActive}) => {
+          return {
+            backgroundColor:"inherit"
+          }
+        }} 
+          className=" text-cyan-400 flex nav font-light transition py-2"
           to='/Portfolio'
         >
           <li className="pr-1 ">Portfolio</li>
@@ -72,7 +82,12 @@ function Navbar() {
           </svg>
         </NavLink>
         <NavLink
-          className="flex nav font-light transition py-2"
+        style={({isActive}) => {
+          return {
+            backgroundColor:"inherit"
+          }
+        }} 
+          className=" text-cyan-400 flex nav font-light transition py-2"
           to='/ContactMe'
         >
           <li className="pr-1">Contact</li>

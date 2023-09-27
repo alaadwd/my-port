@@ -5,7 +5,11 @@
 body{
   --tw-bg-opacity: 1;
   font-family: "Poppins";
-    background-color: rgb(229 231 235 / var(--tw-bg-opacity)); margin: 0;
+  /* background-image: linear-gradient( 135deg,#360940 10% , #F05F57 100%); */
+    
+  /* background-color: rgb(229 231 235 / var(--tw-bg-opacity)); margin: 0; */
+  /* background-color: rgb(15 23 42 / var(--tw-bg-opacity)); */
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;

@@ -1,18 +1,59 @@
 import React from 'react'
 import "./WorkCard.css"
+import { Link, useParams } from 'react-router-dom'
+import dataSets from './dataSet'
+import 'react-slideshow-image/dist/styles.css';
+import {FaArrowLeft} from "react-icons/fa"
+import {Swiper} from "swiper/react"
+import { SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper';
+import "swiper/css"
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-const WorkCard = (props) => {
+// import "swiper/css"
+
+const WorkCard = () => {
+  const {ProjId} = useParams();
+  const singlePro = dataSets.find((Proj) => Proj.id == ProjId)
+  const {descript , image , link , title, imgsArray , smolDescript} = singlePro
+
+
+
+  const swipe = singlePro.imgsArray.map((img)=>{
+    return (
+      <SwiperSlide>
+        <img className='m-auto rounded-2xl' src={img}/>
+      </SwiperSlide>
+    )
+  } )
+
+
   return (
-    <div className="flex h-auto flex-col justify-between bg-gray-200 shadow-2xl hover:border-gray-300 hover:bg-transparent card border-transparent transition border-[1px] rounded-[2rem] p-5" >
-      <div>
-      <img className='rounded-lg overflow-hidden' src={props.image} />
-      <h4 className=' my-2 text-center font-bold'>{props.title}</h4>
-      <p className='text-center '>({props.descript})</p>
-      <p className='text-center text-xs mt-1'>{props.moredetails}</p>
-      </div>
-      <div>
-      <a target='_blank' href={`${props.link}`} className='flex w-fit m-auto justify-center rounded-xl p-3 hover:bg-white transition hover:text-gray-600 border-[1px] mt-3 border-gray-500'>Source Code</a>
-      </div>
+    <div className=' home_container flex-col gap-12 px-16 rounded-xl flex shadow-2xl w-9/12 m-auto my-8 bg-zinc-900'>
+    <Link className=' hover:border-cyan-400 gobacklink w-fit rounded-xl p-3 hover:text-cyan-400 mt-3 transition' to={"/Portfolio"}><FaArrowLeft/></Link>
+    <Swiper
+    style={{
+      paddingBottom:"40px"
+
+    }}
+    pagination={{
+      type:"bullets"
+
+    }}
+    navigation ={true}
+    modules={[Pagination,Navigation]}
+    >
+      {swipe}
+    </Swiper>
+
+      {/* <img src={image} /> */}
+      <h2 className='text-center font-bold text-lg'>{title}</h2>
+      <p className=' text-cyan-400 text-center text-sm'>{descript}</p>
+        <p className='text-center'>{smolDescript}</p>
+      <div className='flex justify-evenly mb-6'>
+      <a className='flex w-fit m-auto justify-center rounded-xl p-3 hover:border-cyan-400 transition hover:text-cyan-400 border-[1px] mt-3 border-gray-500' href={link}>Source Code</a>
+    </div>
     </div>
   )
 }
