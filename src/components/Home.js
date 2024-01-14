@@ -1,7 +1,7 @@
 import React from "react";
 import Img1 from "../assets/me3.jpg";
 import "./Home.css";
-import CV from "../assets/MonCv2.pdf";
+import CV from "../assets/NeuMonCv.pdf";
 import {AiOutlineCheck} from "react-icons/ai"
 import {IoIosRadioButtonOn} from "react-icons/io"
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <small className="text-center text-[8px] m-[-10px]">Small update : I'm Bald Now lol</small>
        <p className="text-center text-lg para font-bold">Hello Visitors :) !</p> 
       <p className="break-words para px-8">
-        I'm Abd , 22 years old located in Syria - Aleppo, a self-taught programmer :D I love Physics , Math and Programming
+        I'm Abd , 23 years old located in Syria - Aleppo, a self-taught programmer :D I love Physics , Math and Programming
         :p , Isn't it mind-blowing? you learn a programming language and BOOM
         the device you have completely obeys you , blindly in every way you imagine ,
         and every thought passes by you after you learn a certain programming
@@ -26,10 +26,8 @@ const Home = () => {
             <li className="exp hover:white transition"><AiOutlineCheck/>HTML , CSS , JS (Web Dev)</li>
             <li className="exp hover:white transition"><AiOutlineCheck/>Tailwind (CSS Framework)</li>
             <li className="exp hover:white transition"><AiOutlineCheck/>React (JS Framework), React Router</li>
-            <li className="exp hover:white transition"><AiOutlineCheck/>React Native (App Dev)</li>
-            <li className="exp hover:white transition"><AiOutlineCheck/>Node Js (Back-end) </li>
-            <li className="exp hover:white transition"><AiOutlineCheck/>Express Js (Node Back-end framework) </li>
-            <li className="exp hover:white transition"><AiOutlineCheck/>MongoDB (NoSQL Database) </li>
+            <li className="exp hover:white transition"><AiOutlineCheck/>PHP (Back-end) </li>
+            <li className="exp hover:white transition"><AiOutlineCheck/>MySQL (Database) </li>
 
             </ul>
           </div>
@@ -38,7 +36,7 @@ const Home = () => {
             <h3 className="exp_header font-bold hover:border-cyan-400 transition hover:text-cyan-400">Others</h3>
             <ul className="exp_list mt-12">
             <li className="exp hover:white transition"><AiOutlineCheck/>Translation (English to Arabic -vice versa-)</li>
-            <li className="exp hover:white transition"><AiOutlineCheck/>Medical Translation (English to Arabic -vice versa-)</li>
+            {/* <li className="exp hover:white transition"><AiOutlineCheck/>Medical Translation (English to Arabic -vice versa-)</li> */}
             <li className="exp hover:white transition"><AiOutlineCheck/>Transcription</li>
             </ul>
 

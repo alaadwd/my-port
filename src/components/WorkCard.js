@@ -31,7 +31,7 @@ const WorkCard = () => {
 
   return (
     <div className=' home_container flex-col gap-12 px-16 rounded-xl flex shadow-2xl w-9/12 m-auto my-8 bg-zinc-900'>
-    <Link className=' hover:border-cyan-400 gobacklink w-fit rounded-xl p-3 hover:text-cyan-400 mt-3 transition' to={"/Portfolio"}><FaArrowLeft/></Link>
+    <Link className='p-3 m-3 hover:border-cyan-400 gobacklink w-fit rounded-xl hover:text-cyan-400 transition' to={"/Portfolio"}><FaArrowLeft/></Link>
     <Swiper
     style={{
       paddingBottom:"40px"
